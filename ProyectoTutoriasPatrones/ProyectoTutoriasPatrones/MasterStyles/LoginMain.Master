@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoginMain.master.cs" Inherits="ProyectoTutoriasPatrones.MasterStyles.LoginMain" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel='stylesheet' type='text/css' />
+    <style type="text/css">
+        body {
+            background-color: #036;
+        }
+
+        .center {
+            background-color: #FFFFFF;
+            width: 400px;
+            height: 300px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        centerinner {
+            height: 10em;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        .nuevoEstilo1 {
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+        }
+
+        .auto-style3 {
+            float: left;
+            height: 60px;
+            width: 100px;
+        }
+
+        .auto-style4 {
+            float: right;
+            height: 60px;
+            width: 60px;
+        }
+
+        .auto-style5 {
+            width: 100%;
+            height: 65px;
+        }
+
+        .auto-style6 {
+            width: 127px;
+        }
+
+        .auto-style8 {
+            width: 23px;
+        }
+
+        .auto-style9 {
+            width: 152px;
+        }
+
+        .auto-style10 {
+            width: 55px;
+        }
+    </style>
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <div class="center">
+        <div class="centerinner">
+            <table class="auto-style5">
+                <tr>
+                    <td colspan="5">
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style8"></td>
+                    <td class="auto-style6">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Logo-TecNM-2017.png/800px-Logo-TecNM-2017.png" class="auto-style3" /></td>
+                    <td class="auto-style10"></td>
+                    <td class="auto-style9">
+                        <img src="http://tectijuana.edu.mx/wp-content/plugins/website-logo/images/logo_ITT1.png" class="auto-style4" /></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <!--<h3><span class="nuevoEstilo1">Inicio de Sesión</span></h3>-->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td class="auto-style8"></td>
+                    <td colspan="3">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

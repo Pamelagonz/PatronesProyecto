@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AgregarModificar.master.cs" Inherits="ProyectoTutoriasPatrones.MasterStyles.AgregarModificar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel='stylesheet' type='text/css' />
+    <style type="text/css">
+        body {
+            background-color: #036;
+        }
+
+        .center {
+            background-color: #FFFFFF;
+            width: 400px;
+            height: 450px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        centerinner {
+            height: 10em;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        .nuevoEstilo1 {
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+        }
+
+        .auto-style5 {
+            width: 100%;
+            height: 444px;
+        }
+
+        .auto-style6 {
+            width: 23px;
+            height: 17px;
+        }
+        .auto-style7 {
+            width: 340px;
+            height: 17px;
+        }
+        .auto-style8 {
+            height: 17px;
+        }
+        .auto-style9 {
+            height: 400px;
+        }
+    </style>
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <div class="center">
+        <div class="centerinner">
+            <table class="auto-style5">
+                <tr>
+                    <td class="auto-style6"><br /></td>
+                    <td class="auto-style7"><br /></td>
+                    <td class="auto-style8"><br /></td>
+                </tr>                
+                <tr>
+                    <td class="auto-style9"><br /></td>
+                    <td class="auto-style9">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td class="auto-style9"><br /></td>
+                </tr>
+                <tr>
+                    <td><br /></td>
+                    <td><br /></td>
+                    <td><br /></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
